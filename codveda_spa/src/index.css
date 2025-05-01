@@ -1,17 +1,8 @@
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f8f9fa;
+body{
+  font-family:'Times New Roman', Times, serif;
+  background-color:#FAF4EF;
   margin: 0;
   padding: 0;
-}
-
-.container{
-  max-width: 800px;
-  margin: 40px 0 0 40px;
-  padding: 20px;
-  background-color: #fff;
-  border-radius: 12px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
@@ -24,11 +15,12 @@ p {
 }
 
 .navbar {
-  background-color: #343a40;
+  background-color: #9E3B0D;
   padding: 1rem 2rem;
   display: flex;
   justify-content: center;
   gap: 2rem;
+  font-size: 20px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
@@ -39,6 +31,68 @@ p {
   transition: color 0.2s ease-in-out;
 }
 
-.navbar a:hover {
-  color: #ffc107;
+.btn{
+  background-color: #9E3B0D;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  padding: 12px 20px;
+  border-radius: 50px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+a{
+  text-decoration: none;
+}
+
+.hero{
+  padding: 20px 30px;
+  text-align: center;
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+.hero h1{
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.hero p{
+  font-size: 1.3rem;
+  margin-top: 10px;
+}
+
+.container{
+  color: #333;
+  padding: 20px;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 60px 20px;
+  background-color: #fffdf7;
+}
+
+.card {
+  text-align: center;
+  width: 250px;
+  margin: 20px;
+}
+
+.contact-info {
+  margin-top: 40px;
+  text-align: center;
+  color: #444;
+}
+
+.contact-info h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
 }
